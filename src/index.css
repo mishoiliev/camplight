@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,75 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: 0 0% 100%;
+  --foreground: 0 0% 14.5%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 14.5%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 14.5%;
+  --primary: 249 75.8% 60.2%;
+  --primary-foreground: 0 0% 98.5%;
+  --secondary: 0 0% 97%;
+  --secondary-foreground: 0 0% 20.5%;
+  --muted: 0 0% 97%;
+  --muted-foreground: 0 0% 55.6%;
+  --accent: 0 0% 97%;
+  --accent-foreground: 0 0% 20.5%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 92.2%;
+  --input: 0 0% 92.2%;
+  --ring: 0 0% 70.8%;
+  --chart-1: hsl(41.116 22.2% 64.6%);
+  --chart-2: hsl(184.704 11.8% 60%);
+  --chart-3: hsl(227.392 7% 39.8%);
+  --chart-4: hsl(84.429 18.9% 82.8%);
+  --chart-5: hsl(70.08 18.8% 76.9%);
+  --sidebar: hsl(0 0% 98.5%);
+  --sidebar-foreground: hsl(0 0% 14.5%);
+  --sidebar-primary: hsl(0 0% 20.5%);
+  --sidebar-primary-foreground: hsl(0 0% 98.5%);
+  --sidebar-accent: hsl(0 0% 97%);
+  --sidebar-accent-foreground: hsl(0 0% 20.5%);
+  --sidebar-border: hsl(0 0% 92.2%);
+  --sidebar-ring: hsl(0 0% 70.8%);
+}
+
+.dark {
+  --background: 0 0% 14.5%;
+  --foreground: 0 0% 98.5%;
+  --card: 0 0% 20.5%;
+  --card-foreground: 0 0% 98.5%;
+  --popover: 0 0% 20.5%;
+  --popover-foreground: 0 0% 98.5%;
+  --primary: 0 0% 92.2%;
+  --primary-foreground: 0 0% 20.5%;
+  --secondary: 0 0% 26.9%;
+  --secondary-foreground: 0 0% 98.5%;
+  --muted: 0 0% 26.9%;
+  --muted-foreground: 0 0% 70.8%;
+  --accent: 0 0% 26.9%;
+  --accent-foreground: 0 0% 98.5%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 100% / 10%;
+  --input: 0 0% 100% / 15%;
+  --ring: 0 0% 55.6%;
+  --chart-1: hsl(264.376 24.3% 48.8%);
+  --chart-2: hsl(162.48 17% 69.6%);
+  --chart-3: hsl(70.08 18.8% 76.9%);
+  --chart-4: hsl(303.9 26.5% 62.7%);
+  --chart-5: hsl(16.439 24.6% 64.5%);
+  --sidebar: hsl(0 0% 20.5%);
+  --sidebar-foreground: hsl(0 0% 98.5%);
+  --sidebar-primary: hsl(264.376 24.3% 48.8%);
+  --sidebar-primary-foreground: hsl(0 0% 98.5%);
+  --sidebar-accent: hsl(0 0% 26.9%);
+  --sidebar-accent-foreground: hsl(0 0% 98.5%);
+  --sidebar-border: hsl(0 0% 100% / 10%);
+  --sidebar-ring: hsl(0 0% 55.6%);
 }
